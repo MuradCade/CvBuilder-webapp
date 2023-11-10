@@ -31,12 +31,16 @@
 				</div>
 				<div class="form-group">
 				<label class="form-label">Password</label>
-				<input type="password" name="pwd" placeholder="Enter Password" class="form-control">	
+				<input type="password" name="pwd" placeholder="Enter Password" class="form-control" id="pwd">
+				<img src="images/eye-regular.svg">	
 				</div>
 				<div class="cta">
 					<button class="btn btn-primary">Signup</button>
 				</div>
+				<p class="text-center loginlinktext" >Already have account? <a href="#" class="link text-primary">Login</a></p>
 			</div>
+
+
 		</div>
 	<script src="js/jquery.min.js"></script>
   <script src="js/popper.js"></script>

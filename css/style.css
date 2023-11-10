@@ -6,6 +6,8 @@
 :root{
   --primarycolor:#1a91f0;
   --headingcolor:#1e2532;
+  --subtitlecolor:#828282;
+  --labelcolor:#080808;
 }
 
 body{
@@ -23,6 +25,7 @@ body{
   width:500px;
   height: 400px;
   background-color: #ffff;
+  border-radius: 5px;
 }
 
 
@@ -37,6 +40,7 @@ p{
   font-weight: normal;
   line-height: 1.5em;
   letter-spacing: 0.5px;
+  color: var(--subtitlecolor);
 }
 
 .form-group{
@@ -46,11 +50,19 @@ label{
   font-size: 15px;
   text-transform: capitalize;
     letter-spacing: 0.5px;
+    color: var(--labelcolor) !important;
 }
 input{
   font-size: 15px !important;
 }
-
+.link{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+.loginlinktext{
+  font-size: 14px !important;
+}
 .btn{
   font-weight: bold !important;
   font-size: 15px !important;
