@@ -16,7 +16,8 @@ body{
 
 
 
-/*singup page style starts here*/
+
+
 .alignment-center{
   display:flex;
   align-items: center;
@@ -26,7 +27,7 @@ body{
   padding:25px;
   margin-top: 40px;
   width:500px;
-  height: 410px;
+  height: 340px;
   background-color: #ffff;
   border-radius: 5px;
 }
@@ -39,6 +40,7 @@ h5{
   color: var(--headingcolor);
 }
 p{
+ 
   font-size: 14px;
   font-weight: normal;
   line-height: 1.5em;
@@ -64,7 +66,7 @@ input{
   font-weight: bold;
 }
 .loginlinktext{
-  margin-top:12px;
+ margin-top:13px !important;
   font-size: 14px !important;
 }
 .btn{
@@ -92,37 +94,4 @@ input{
 	top:43px;
 	right:15px;
 	cursor:pointer;
-}
-/*media query Layout design*/
-/* xsm */
-@media (min-width: 475px) {
-
-
- 
-  
-}
-/* sm */
-@media (min-width: 640px) {
-  
- 
- 
-}
-/* md */
-@media (min-width: 768px) {
-
-   
-}
-
-/* lg */
-@media (min-width: 1024px) {
-
-}
-/* xlg */
-@media (min-width: 1280px) {
-  
-  
-}
-/* 2xl */
-@media (min-width: 1535px) {
-  
 }
