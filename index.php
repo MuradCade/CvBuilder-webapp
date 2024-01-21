@@ -21,19 +21,21 @@
 				<h5>Login!</h5>
 				<p>Create perfect resumes for the modern job market.</p>
 				<!-- form input  starts here-->
-				<div class="form-group">
+			<form action="include/login.inc.php" method="POST">
+			   	<div class="form-group">
 				<label class="form-label">Username</label>
 				<input type="text" name="username" placeholder="Enter Username" class="form-control">		
 				</div>
 				<div class="form-group" id="main-pwd">
 				<label class="form-label">Password</label>
-				<input type="password" id="p-input"name="pwd" placeholder="Enter Password" class="form-control" id="pwd">
+				<input type="password" name="pwd" placeholder="Enter Password" class="form-control" id="pwd">
 				<img src="images/eye-regular.svg"class="p-icon">
 				<img src="images/eye-slash-solid.svg"class="p-icon2">	
 				</div>
 				<div class="cta">
 					<button class="btn btn-primary">Login</button>
 				</div>
+			</form>
 				<p class="text-center loginlinktext" >Don't have account yet? <a href="signup.php" class="link text-primary">Create Account</a></p>
 			</div>
 
